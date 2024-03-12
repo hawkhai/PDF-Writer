@@ -91,7 +91,7 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR="Debug";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR=\"Debug\";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -124,7 +124,7 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR=\"Release\";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -157,7 +157,7 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR=\"MinSizeRel\";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -189,7 +189,7 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR="RelWithDebInfo";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 /we4723 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_LIBPNG_VCXPROJ;CMAKE_INTDIR=\"RelWithDebInfo\";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
