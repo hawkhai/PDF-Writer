@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{358522AE-B2EC-38B6-B8AE-2D1FE39F62AD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>PDFWriterTesting</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriterTesting.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriterTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriterTesting.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriterTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriterTesting.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriterTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriterTesting.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriterTesting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Debug";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Debug\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\FreeType\Debug\FreeType.lib;..\LibAesgm\Debug\LibAesgm.lib;..\LibJpeg\Debug\LibJpeg.lib;..\LibPng\Debug\LibPng.lib;..\LibTiff\Debug\LibTiff.lib;..\PDFWriter\Debug\PDFWriter.lib;..\Zlib\Debug\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Debug/PDFWriterTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>Debug/PDFWriterTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Release";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Release\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\FreeType\Release\FreeType.lib;..\LibAesgm\Release\LibAesgm.lib;..\LibJpeg\Release\LibJpeg.lib;..\LibPng\Release\LibPng.lib;..\LibTiff\Release\LibTiff.lib;..\PDFWriter\Release\PDFWriter.lib;..\Zlib\Release\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>Release/PDFWriterTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>Release/PDFWriterTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="MinSizeRel";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"MinSizeRel\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\FreeType\MinSizeRel\FreeType.lib;..\LibAesgm\MinSizeRel\LibAesgm.lib;..\LibJpeg\MinSizeRel\LibJpeg.lib;..\LibPng\MinSizeRel\LibPng.lib;..\LibTiff\MinSizeRel\LibTiff.lib;..\PDFWriter\MinSizeRel\PDFWriter.lib;..\Zlib\MinSizeRel\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>MinSizeRel/PDFWriterTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>MinSizeRel/PDFWriterTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="RelWithDebInfo";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITERTESTING_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"RelWithDebInfo\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\PDFWriter;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\FreeType\RelWithDebInfo\FreeType.lib;..\LibAesgm\RelWithDebInfo\LibAesgm.lib;..\LibJpeg\RelWithDebInfo\LibJpeg.lib;..\LibPng\RelWithDebInfo\LibPng.lib;..\LibTiff\RelWithDebInfo\LibTiff.lib;..\PDFWriter\RelWithDebInfo\PDFWriter.lib;..\Zlib\RelWithDebInfo\Zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>RelWithDebInfo/PDFWriterTesting.lib</ImportLibrary>
+      <ProgramDataBaseFile>RelWithDebInfo/PDFWriterTesting.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\PDFWriterTesting\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule ../../PDFWriterTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule ../../PDFWriterTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule ../../PDFWriterTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule ../../PDFWriterTesting/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PDFWriterTesting.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AppendAndReplaceURLAnnotations.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AppendingAndReading.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AppendPagesTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AppendSpecialPagesTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AppendWithAnnotations.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\BasicModification.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\BoxingBaseTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\BufferedOutputStreamTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\CIDSetWritingCFF.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\CIDSetWritingTrueType.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\CIDSetWritingTrueType2.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ColorEmojiColr.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ColorEmojiColrV1.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\CopyingAndMergingEmptyPages.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\CustomLogTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\DCTDecodeFilterTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\DFontTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\EmptyFileTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\EmptyPagesPDF.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\EncryptedPDF.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\FlateEncryptionTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\FlateObjectDecodeTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\FormXObjectTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\FreeTypeInitializationTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\HighLevelContentContext.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\HighLevelImages.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ImagesAndFormsForwardReferenceTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\InputFlateDecodeTester.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\InputImagesAsStreamsTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\JpegLibTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\JPGImageTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\LinksTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\LogTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\MergePDFPages.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\MergeToPDFForm.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ModifyingEncryptedFile.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ModifyingExistingFileContent.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\OpenTypeTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\OutputFileStreamTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PageModifierTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PageOrderModification.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ParsingBadXref.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ParsingFaulty.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFCopyingContextTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFDateTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFEmbedTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFObjectCastTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFObjectParserTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFParserTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFWithPassword.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PFBStreamTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PNGImageTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\RecryptPDF.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\RefCountTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\RotatedPagesPDF.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\ShutDownRestartTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\SimpleContentPageTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\SimpleTextUsage.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TestMeasurementsTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TextUsageBugs.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TIFFImageTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TiffSpecialsTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TimerTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TrueTypeTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\TTCTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\Type1Test.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\UnicodeTextUsage.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\UppercaseSequanceTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\WatermarkTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\WatermarkWithContextOpacityTest.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\testing\FileURL.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\testing\PosixPath.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\testing\WindowsPath.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFComment.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\PDFCommentWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriterTesting\AnnotationsWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{54C30E4D-D8B0-31A3-91E8-DE21DD8D1A57}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeType\FreeType.vcxproj">
+      <Project>{445F9B71-6ED4-39E6-AD8E-E144706D76CC}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibAesgm\LibAesgm.vcxproj">
+      <Project>{05F8AD3A-241C-3D2E-AFB7-7BB0A10F5CEA}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibJpeg\LibJpeg.vcxproj">
+      <Project>{B83CD16E-5BE8-3956-89B9-A50F878B82B8}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibPng\LibPng.vcxproj">
+      <Project>{3B99C9AD-E2FE-38C6-A404-062BBFD3A49B}</Project>
+      <Name>LibPng</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibTiff\LibTiff.vcxproj">
+      <Project>{759DF322-E06F-301D-9E05-D84B59453D00}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDFWriter\PDFWriter.vcxproj">
+      <Project>{0116BE19-1AD5-392A-9CFB-4116770EDD89}</Project>
+      <Name>PDFWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zlib\Zlib.vcxproj">
+      <Project>{DE1C37C2-360B-3F62-8E12-36F802CB381D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{759DF322-E06F-301D-9E05-D84B59453D00}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>LibTiff</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LibTiff.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LibTiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LibTiff.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LibTiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LibTiff.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LibTiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LibTiff.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LibTiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Debug";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Debug\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Release";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Release\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="MinSizeRel";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"MinSizeRel\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="RelWithDebInfo";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_LIBTIFF_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"RelWithDebInfo\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\LibTiff\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule ../../LibTiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule ../../LibTiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule ../../LibTiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule ../../LibTiff/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibTiff\tif_aux.c" />
+    <ClCompile Include="..\..\LibTiff\tif_close.c" />
+    <ClCompile Include="..\..\LibTiff\tif_codec.c" />
+    <ClCompile Include="..\..\LibTiff\tif_color.c" />
+    <ClCompile Include="..\..\LibTiff\tif_compress.c" />
+    <ClCompile Include="..\..\LibTiff\tif_dir.c" />
+    <ClCompile Include="..\..\LibTiff\tif_dirinfo.c" />
+    <ClCompile Include="..\..\LibTiff\tif_dirread.c" />
+    <ClCompile Include="..\..\LibTiff\tif_dirwrite.c" />
+    <ClCompile Include="..\..\LibTiff\tif_dumpmode.c" />
+    <ClCompile Include="..\..\LibTiff\tif_error.c" />
+    <ClCompile Include="..\..\LibTiff\tif_extension.c" />
+    <ClCompile Include="..\..\LibTiff\tif_fax3.c" />
+    <ClCompile Include="..\..\LibTiff\tif_fax3sm.c" />
+    <ClCompile Include="..\..\LibTiff\tif_flush.c" />
+    <ClCompile Include="..\..\LibTiff\tif_getimage.c" />
+    <ClCompile Include="..\..\LibTiff\tif_hash_set.c" />
+    <ClCompile Include="..\..\LibTiff\tif_jbig.c" />
+    <ClCompile Include="..\..\LibTiff\tif_jpeg.c" />
+    <ClCompile Include="..\..\LibTiff\tif_luv.c" />
+    <ClCompile Include="..\..\LibTiff\tif_lzw.c" />
+    <ClCompile Include="..\..\LibTiff\tif_next.c" />
+    <ClCompile Include="..\..\LibTiff\tif_ojpeg.c" />
+    <ClCompile Include="..\..\LibTiff\tif_open.c" />
+    <ClCompile Include="..\..\LibTiff\tif_packbits.c" />
+    <ClCompile Include="..\..\LibTiff\tif_pixarlog.c" />
+    <ClCompile Include="..\..\LibTiff\tif_predict.c" />
+    <ClCompile Include="..\..\LibTiff\tif_print.c" />
+    <ClCompile Include="..\..\LibTiff\tif_read.c" />
+    <ClCompile Include="..\..\LibTiff\tif_stream.cxx" />
+    <ClCompile Include="..\..\LibTiff\tif_strip.c" />
+    <ClCompile Include="..\..\LibTiff\tif_swab.c" />
+    <ClCompile Include="..\..\LibTiff\tif_thunder.c" />
+    <ClCompile Include="..\..\LibTiff\tif_tile.c" />
+    <ClCompile Include="..\..\LibTiff\tif_unix.c" />
+    <ClCompile Include="..\..\LibTiff\tif_version.c" />
+    <ClCompile Include="..\..\LibTiff\tif_warning.c" />
+    <ClCompile Include="..\..\LibTiff\tif_write.c" />
+    <ClCompile Include="..\..\LibTiff\tif_zip.c" />
+    <ClInclude Include="..\..\LibTiff\t4.h" />
+    <ClInclude Include="..\..\LibTiff\tiff.h" />
+    <ClInclude Include="..\..\LibTiff\tiffconf.h" />
+    <ClInclude Include="..\..\LibTiff\tiffio.h" />
+    <ClInclude Include="..\..\LibTiff\tiffio.hxx" />
+    <ClInclude Include="..\..\LibTiff\tiffiop.h" />
+    <ClInclude Include="..\..\LibTiff\tiffvers.h" />
+    <ClInclude Include="..\..\LibTiff\tif_config.h" />
+    <ClInclude Include="..\..\LibTiff\tif_dir.h" />
+    <ClInclude Include="..\..\LibTiff\tif_fax3.h" />
+    <ClInclude Include="..\..\LibTiff\tif_hash_set.h" />
+    <ClInclude Include="..\..\LibTiff\tif_predict.h" />
+    <ClInclude Include="..\..\LibTiff\uvcode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{54C30E4D-D8B0-31A3-91E8-DE21DD8D1A57}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\Zlib\Zlib.vcxproj">
+      <Project>{DE1C37C2-360B-3F62-8E12-36F802CB381D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

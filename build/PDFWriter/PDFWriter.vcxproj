@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0116BE19-1AD5-392A-9CFB-4116770EDD89}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>PDFWriter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Debug";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Debug\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="Release";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"Release\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="MinSizeRel";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"MinSizeRel\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR="RelWithDebInfo";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/we4013 /we4047 /we4133 /we4172 /we4431 /we4456 /we4457 /we4477 /we4700 /we4715 /we4716 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_DEPRECATE=1;_PDFWRITER_VCXPROJ;AVOID_WIN32_FILEIO=1;CCITT_SUPPORT=1;CHECK_JPEG_YCBCR_SUBSAMPLING=1;CMAKE_INTDIR=\"RelWithDebInfo\";DEFAULT_EXTRASAMPLE_AS_ALPHA=1;FILLODER_LSB2MSB=1;FT2_BUILD_LIBRARY=1;FT_CONFIG_OPTION_SYSTEM_ZLIB=1;LOGLUV_SUPPORT=1;LZW_SUPPORT=1;NEXT_SUPPORT=1;PACKBITS_SUPPORT=1;PIXARLOG_SUPPORT=1;STRIP_SIZE_DEFAULT=8192;STRIPCHOP_DEFAULT=TIFF_STRIPCHOP;THUNDER_SUPPORT=1;TIF_PLATFORM_CONSOLE=1;WIN32_LEAN_AND_MEAN;ZIP_SUPPORT=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\FreeType\include;..\..\LibAesgm;..\..\LibJpeg;..\..\LibPng;..\..\LibTiff;..\..\Zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\PDFWriter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule ../../PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule ../../PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule ../../PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule ../../PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\PDFWriter\AbstractContentContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\AbstractWrittenFont.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ANSIFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Ascii7Encoding.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ArrayOfInputStreamsStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CatalogInformation.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFANSIFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFDescendentFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFFileInput.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFPrimitiveReader.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CFFPrimitiveWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CharStringType1Interpreter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CharStringType1Tracer.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Flattener.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Interpreter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Tracer.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CIDFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\CMYKRGBColor.cpp" />
+    <ClCompile Include="..\..\PDFWriter\DecryptionHelper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\DescendentFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\DictionaryContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\DocumentContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\EncryptionHelper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\EncryptionOptions.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ExtGStateRegistry.cpp" />
+    <ClCompile Include="..\..\PDFWriter\FontDescriptorWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\FreeTypeFaceWrapper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\FreeTypeOpenTypeWrapper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\FreeTypeType1Wrapper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\FreeTypeWrapper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\GraphicState.cpp" />
+    <ClCompile Include="..\..\PDFWriter\GraphicStateStack.cpp" />
+    <ClCompile Include="..\..\PDFWriter\IndirectObjectsReferenceRegistry.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InfoDictionary.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputAESDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputAscii85DecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputAsciiHexDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputBufferedStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputByteArrayStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputCharStringDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputDCTDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputFile.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputFileStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputFlateDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputLZWDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputLimitedStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputOffsetStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputRC4XcodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputPFBDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputPredictorPNGOptimumStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputPredictorTIFFSubStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputStreamSkipperStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputStringBufferStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\InputStringStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\JPEGImageHandler.cpp" />
+    <ClCompile Include="..\..\PDFWriter\JPEGImageInformation.cpp" />
+    <ClCompile Include="..\..\PDFWriter\JPEGImageParser.cpp" />
+    <ClCompile Include="..\..\PDFWriter\LayeredGlyphsDrawingContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\LinearGradientShadingPatternWritingTask.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Log.cpp" />
+    <ClCompile Include="..\..\PDFWriter\MD5Generator.cpp" />
+    <ClCompile Include="..\..\PDFWriter\RC4.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ObjectsContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OpenTypeFileInput.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OpenTypePrimitiveReader.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputAESEncodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputBufferedStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputFile.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputFileStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputFlateDecodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputFlateEncodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputRC4XcodeStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputStreamTraits.cpp" />
+    <ClCompile Include="..\..\PDFWriter\OutputStringBufferStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PageContentContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PageTree.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PaintedGlyphsDrawingContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ParsedPrimitiveHelper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFArray.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFBoolean.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFCosArray.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFCosDict.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDate.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDictionary.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDocEncoding.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDocumentCopyingContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDocumentHandler.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFFormXObject.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFTiledPattern.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TiledPatternContentContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFHexString.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFImageXObject.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFIndirectObjectReference.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFInteger.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFLiteralString.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFMatrix.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFModifiedPage.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFName.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFNull.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFObject.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFObjectParser.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFPage.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFPageInput.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFDictionaryIterator.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFArrayIterator.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFPageMergingHelper.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFParser.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFParserTokenizer.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFParsingOptions.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFReal.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFRectangle.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFStream.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFStreamInput.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFSymbol.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFTextString.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFUsedFont.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PDFWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PFMFileReader.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PNGImageHandler.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PrimitiveObjectsWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\PSBool.cpp" />
+    <ClCompile Include="..\..\PDFWriter\RadialGradientShadingPatternWritingTask.cpp" />
+    <ClCompile Include="..\..\PDFWriter\RefCountObject.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ResourcesDictionary.cpp" />
+    <ClCompile Include="..\..\PDFWriter\ShadingWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\SimpleGlyphsDrawingContext.cpp" />
+    <ClCompile Include="..\..\PDFWriter\SimpleStringTokenizer.cpp" />
+    <ClCompile Include="..\..\PDFWriter\StandardEncoding.cpp" />
+    <ClCompile Include="..\..\PDFWriter\StateReader.cpp" />
+    <ClCompile Include="..\..\PDFWriter\StateWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\SweepGradientShadingPatternWritingTask.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TIFFImageHandler.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TiffUsageParameters.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Timer.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TimersRegistry.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Trace.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TrailerInformation.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TrueTypeANSIFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TrueTypeDescendentFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TrueTypeEmbeddedFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\TrueTypePrimitiveWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Type1Input.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Type1ToCFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Type1ToType2Converter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\Type2CharStringWriter.cpp" />
+    <ClCompile Include="..\..\PDFWriter\UnicodeString.cpp" />
+    <ClCompile Include="..\..\PDFWriter\UppercaseSequance.cpp" />
+    <ClCompile Include="..\..\PDFWriter\UsedFontsRepository.cpp" />
+    <ClCompile Include="..\..\PDFWriter\WinAnsiEncoding.cpp" />
+    <ClCompile Include="..\..\PDFWriter\WrittenFontCFF.cpp" />
+    <ClCompile Include="..\..\PDFWriter\WrittenFontTrueType.cpp" />
+    <ClCompile Include="..\..\PDFWriter\XCryptionCommon.cpp" />
+    <ClCompile Include="..\..\PDFWriter\XObjectContentContext.cpp" />
+    <ClInclude Include="..\..\PDFWriter\AbstractContentContext.h" />
+    <ClInclude Include="..\..\PDFWriter\AbstractWrittenFont.h" />
+    <ClInclude Include="..\..\PDFWriter\AdapterIByteReaderWithPositionToIReadPositionProvider.h" />
+    <ClInclude Include="..\..\PDFWriter\ANSIFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\Ascii7Encoding.h" />
+    <ClInclude Include="..\..\PDFWriter\ArrayOfInputStreamsStream.h" />
+    <ClInclude Include="..\..\PDFWriter\BetweenIncluding.h" />
+    <ClInclude Include="..\..\PDFWriter\BoxingBase.h" />
+    <ClInclude Include="..\..\PDFWriter\CatalogInformation.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFANSIFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFDescendentFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFEmbeddedFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFFileInput.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFPrimitiveReader.h" />
+    <ClInclude Include="..\..\PDFWriter\CFFPrimitiveWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringDefinitions.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringType1Interpreter.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringType1Tracer.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Flattener.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Interpreter.h" />
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Tracer.h" />
+    <ClInclude Include="..\..\PDFWriter\CIDFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\CMYKRGBColor.h" />
+    <ClInclude Include="..\..\PDFWriter\ContainerIterator.h" />
+    <ClInclude Include="..\..\PDFWriter\DecryptionHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\Deletable.h" />
+    <ClInclude Include="..\..\PDFWriter\DescendentFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\DictionaryContext.h" />
+    <ClInclude Include="..\..\PDFWriter\DictOperand.h" />
+    <ClInclude Include="..\..\PDFWriter\DocumentContext.h" />
+    <ClInclude Include="..\..\PDFWriter\DocumentContextExtenderAdapter.h" />
+    <ClInclude Include="..\..\PDFWriter\EFontStretch.h" />
+    <ClInclude Include="..\..\PDFWriter\EHummusImageType.h" />
+    <ClInclude Include="..\..\PDFWriter\EncryptionHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\EncryptionOptions.h" />
+    <ClInclude Include="..\..\PDFWriter\EPDFVersion.h" />
+    <ClInclude Include="..\..\PDFWriter\EStatusCode.h" />
+    <ClInclude Include="..\..\PDFWriter\ETokenSeparator.h" />
+    <ClInclude Include="..\..\PDFWriter\ExtGStateRegistry.h" />
+    <ClInclude Include="..\..\PDFWriter\FontDescriptorWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\FreeTypeFaceWrapper.h" />
+    <ClInclude Include="..\..\PDFWriter\FreeTypeOpenTypeWrapper.h" />
+    <ClInclude Include="..\..\PDFWriter\FreeTypeType1Wrapper.h" />
+    <ClInclude Include="..\..\PDFWriter\FreeTypeWrapper.h" />
+    <ClInclude Include="..\..\PDFWriter\FSType.h" />
+    <ClInclude Include="..\..\PDFWriter\GlyphUnicodeMapping.h" />
+    <ClInclude Include="..\..\PDFWriter\GraphicState.h" />
+    <ClInclude Include="..\..\PDFWriter\GraphicStateStack.h" />
+    <ClInclude Include="..\..\PDFWriter\IANSIFontWriterHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\IByteReader.h" />
+    <ClInclude Include="..\..\PDFWriter\IByteReaderWithPosition.h" />
+    <ClInclude Include="..\..\PDFWriter\IByteWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\IByteWriterWithPosition.h" />
+    <ClInclude Include="..\..\PDFWriter\IContentContextListener.h" />
+    <ClInclude Include="..\..\PDFWriter\IDeletable.h" />
+    <ClInclude Include="..\..\PDFWriter\IDescendentFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\IDocumentContextExtender.h" />
+    <ClInclude Include="..\..\PDFWriter\IFontDescriptorHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\IFormEndWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\ITiledPatternEndWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\IFreeTypeFaceExtender.h" />
+    <ClInclude Include="..\..\PDFWriter\IndirectObjectsReferenceRegistry.h" />
+    <ClInclude Include="..\..\PDFWriter\InfoDictionary.h" />
+    <ClInclude Include="..\..\PDFWriter\InputAESDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputAscii85DecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputAsciiHexDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputBufferedStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputByteArrayStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputCharStringDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputDCTDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputFile.h" />
+    <ClInclude Include="..\..\PDFWriter\InputFileStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputFlateDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputLZWDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputLimitedStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputOffsetStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputRC4XcodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputPFBDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputPredictorPNGOptimumStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputPredictorTIFFSubStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputStreamSkipperStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputStringBufferStream.h" />
+    <ClInclude Include="..\..\PDFWriter\InputStringStream.h" />
+    <ClInclude Include="..\..\PDFWriter\IOBasicTypes.h" />
+    <ClInclude Include="..\..\PDFWriter\IObjectEndWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\IObjectsContextExtender.h" />
+    <ClInclude Include="..\..\PDFWriter\IPageEndWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\IPDFParserExtender.h" />
+    <ClInclude Include="..\..\PDFWriter\IReadPositionProvider.h" />
+    <ClInclude Include="..\..\PDFWriter\IResourceWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\IType1InterpreterImplementation.h" />
+    <ClInclude Include="..\..\PDFWriter\IType2InterpreterImplementation.h" />
+    <ClInclude Include="..\..\PDFWriter\IWrittenFont.h" />
+    <ClInclude Include="..\..\PDFWriter\JPEGImageHandler.h" />
+    <ClInclude Include="..\..\PDFWriter\JPEGImageInformation.h" />
+    <ClInclude Include="..\..\PDFWriter\JPEGImageParser.h" />
+    <ClInclude Include="..\..\PDFWriter\LayeredGlyphsDrawingContext.h" />
+    <ClInclude Include="..\..\PDFWriter\LinearGradientShadingPatternWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\Log.h" />
+    <ClInclude Include="..\..\PDFWriter\MapIterator.h" />
+    <ClInclude Include="..\..\PDFWriter\MD5Generator.h" />
+    <ClInclude Include="..\..\PDFWriter\RC4.h" />
+    <ClInclude Include="..\..\PDFWriter\MyStringBuf.h" />
+    <ClInclude Include="..\..\PDFWriter\ObjectsBasicTypes.h" />
+    <ClInclude Include="..\..\PDFWriter\ObjectsContext.h" />
+    <ClInclude Include="..\..\PDFWriter\ObjectsContextExtenderAdapter.h" />
+    <ClInclude Include="..\..\PDFWriter\OpenTypeFileInput.h" />
+    <ClInclude Include="..\..\PDFWriter\OpenTypePrimitiveReader.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputAESEncodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputBufferedStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputFile.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputFileStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputFlateDecodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputFlateEncodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputRC4XcodeStream.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputStreamTraits.h" />
+    <ClInclude Include="..\..\PDFWriter\OutputStringBufferStream.h" />
+    <ClInclude Include="..\..\PDFWriter\PageContentContext.h" />
+    <ClInclude Include="..\..\PDFWriter\PageTree.h" />
+    <ClInclude Include="..\..\PDFWriter\PaintedGlyphsDrawingContext.h" />
+    <ClInclude Include="..\..\PDFWriter\ParsedPrimitiveHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFArray.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFBoolean.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFCosArray.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFCosDict.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDate.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDictionary.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDocEncoding.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDocumentCopyingContext.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDocumentHandler.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFEmbedParameterTypes.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFFormXObject.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFTiledPattern.h" />
+    <ClInclude Include="..\..\PDFWriter\TiledPatternContentContext.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFHexString.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFImageXObject.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFIndirectObjectReference.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFInteger.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFLiteralString.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFMatrix.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFModifiedPage.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFName.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFNull.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFObject.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFObjectCast.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFObjectParser.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFPage.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFPageInput.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFDictionaryIterator.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFArrayIterator.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFPageMergingHelper.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFParser.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFParserTokenizer.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFParsingOptions.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFReal.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFRectangle.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFStream.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFStreamInput.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFSymbol.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFTextString.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFUsedFont.h" />
+    <ClInclude Include="..\..\PDFWriter\PDFWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\PFMFileReader.h" />
+    <ClInclude Include="..\..\PDFWriter\PNGImageHandler.h" />
+    <ClInclude Include="..\..\PDFWriter\PrimitiveObjectsWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\ProcsetResourcesConstants.h" />
+    <ClInclude Include="..\..\PDFWriter\PSBool.h" />
+    <ClInclude Include="..\..\PDFWriter\RadialGradientShadingPatternWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\RefCountObject.h" />
+    <ClInclude Include="..\..\PDFWriter\RefCountPtr.h" />
+    <ClInclude Include="..\..\PDFWriter\ResourcesDictionary.h" />
+    <ClInclude Include="..\..\PDFWriter\SafeBufferMacrosDefs.h" />
+    <ClInclude Include="..\..\PDFWriter\SimpleGlyphsDrawingContext.h" />
+    <ClInclude Include="..\..\PDFWriter\SimpleStringTokenizer.h" />
+    <ClInclude Include="..\..\PDFWriter\Singleton.h" />
+    <ClInclude Include="..\..\PDFWriter\SingleValueContainerIterator.h" />
+    <ClInclude Include="..\..\PDFWriter\ShadingWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\StandardEncoding.h" />
+    <ClInclude Include="..\..\PDFWriter\StateReader.h" />
+    <ClInclude Include="..\..\PDFWriter\StateWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\SweepGradientShadingPatternWritingTask.h" />
+    <ClInclude Include="..\..\PDFWriter\TIFFImageHandler.h" />
+    <ClInclude Include="..\..\PDFWriter\TiffUsageParameters.h" />
+    <ClInclude Include="..\..\PDFWriter\Timer.h" />
+    <ClInclude Include="..\..\PDFWriter\TimersRegistry.h" />
+    <ClInclude Include="..\..\PDFWriter\Trace.h" />
+    <ClInclude Include="..\..\PDFWriter\TrailerInformation.h" />
+    <ClInclude Include="..\..\PDFWriter\TrueTypeANSIFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\TrueTypeDescendentFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\TrueTypeEmbeddedFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\TrueTypePrimitiveWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\Type1Input.h" />
+    <ClInclude Include="..\..\PDFWriter\Type1ToCFFEmbeddedFontWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\Type1ToType2Converter.h" />
+    <ClInclude Include="..\..\PDFWriter\Type2CharStringWriter.h" />
+    <ClInclude Include="..\..\PDFWriter\UnicodeString.h" />
+    <ClInclude Include="..\..\PDFWriter\UppercaseSequance.h" />
+    <ClInclude Include="..\..\PDFWriter\UsedFontsRepository.h" />
+    <ClInclude Include="..\..\PDFWriter\WinAnsiEncoding.h" />
+    <ClInclude Include="..\..\PDFWriter\WrittenFontCFF.h" />
+    <ClInclude Include="..\..\PDFWriter\WrittenFontRepresentation.h" />
+    <ClInclude Include="..\..\PDFWriter\WrittenFontTrueType.h" />
+    <ClInclude Include="..\..\PDFWriter\XCryptionCommon.h" />
+    <ClInclude Include="..\..\PDFWriter\XObjectContentContext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{54C30E4D-D8B0-31A3-91E8-DE21DD8D1A57}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="..\FreeType\FreeType.vcxproj">
+      <Project>{445F9B71-6ED4-39E6-AD8E-E144706D76CC}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibAesgm\LibAesgm.vcxproj">
+      <Project>{05F8AD3A-241C-3D2E-AFB7-7BB0A10F5CEA}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibJpeg\LibJpeg.vcxproj">
+      <Project>{B83CD16E-5BE8-3956-89B9-A50F878B82B8}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibPng\LibPng.vcxproj">
+      <Project>{3B99C9AD-E2FE-38C6-A404-062BBFD3A49B}</Project>
+      <Name>LibPng</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibTiff\LibTiff.vcxproj">
+      <Project>{759DF322-E06F-301D-9E05-D84B59453D00}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zlib\Zlib.vcxproj">
+      <Project>{DE1C37C2-360B-3F62-8E12-36F802CB381D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

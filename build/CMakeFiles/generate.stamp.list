@@ -1,0 +1,9 @@
+generate.stamp
+../Zlib/CMakeFiles/generate.stamp
+../FreeType/CMakeFiles/generate.stamp
+../LibAesgm/CMakeFiles/generate.stamp
+../LibJpeg/CMakeFiles/generate.stamp
+../LibTiff/CMakeFiles/generate.stamp
+../LibPng/CMakeFiles/generate.stamp
+../PDFWriter/CMakeFiles/generate.stamp
+../PDFWriterTesting/CMakeFiles/generate.stamp

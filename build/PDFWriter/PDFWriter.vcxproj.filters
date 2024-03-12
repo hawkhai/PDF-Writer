@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\PDFWriter\AbstractContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\AbstractWrittenFont.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Ascii7Encoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ArrayOfInputStreamsStream.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CatalogInformation.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFDescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFEmbeddedFontWriter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFFileInput.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFPrimitiveReader.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CFFPrimitiveWriter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CharStringType1Interpreter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CharStringType1Tracer.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Flattener.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Interpreter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CharStringType2Tracer.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CIDFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\CMYKRGBColor.cpp">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\DecryptionHelper.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\DescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\DictionaryContext.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\DocumentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\EncryptionHelper.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\EncryptionOptions.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ExtGStateRegistry.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\FontDescriptorWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\FreeTypeFaceWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\FreeTypeOpenTypeWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\FreeTypeType1Wrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\FreeTypeWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\GraphicState.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\GraphicStateStack.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\IndirectObjectsReferenceRegistry.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InfoDictionary.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputAESDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputAscii85DecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputAsciiHexDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputBufferedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputByteArrayStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputCharStringDecodeStream.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputDCTDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputFile.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputFileStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputFlateDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputLZWDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputLimitedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputOffsetStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputRC4XcodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputPFBDecodeStream.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputPredictorPNGOptimumStream.cpp">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputPredictorTIFFSubStream.cpp">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputStreamSkipperStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputStringBufferStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\InputStringStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\JPEGImageHandler.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\JPEGImageInformation.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\JPEGImageParser.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\LayeredGlyphsDrawingContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\LinearGradientShadingPatternWritingTask.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Log.cpp">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\MD5Generator.cpp">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\RC4.cpp">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ObjectsContext.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OpenTypeFileInput.cpp">
+      <Filter>Text\OpenType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OpenTypePrimitiveReader.cpp">
+      <Filter>Text\OpenType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputAESEncodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputBufferedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputFile.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputFileStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputFlateDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputFlateEncodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputRC4XcodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputStreamTraits.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\OutputStringBufferStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PageContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PageTree.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PaintedGlyphsDrawingContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ParsedPrimitiveHelper.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFArray.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFBoolean.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFCosArray.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFCosDict.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDate.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDictionary.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDocEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDocumentCopyingContext.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDocumentHandler.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFFormXObject.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFTiledPattern.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TiledPatternContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFHexString.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFImageXObject.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFIndirectObjectReference.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFInteger.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFLiteralString.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFMatrix.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFModifiedPage.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFName.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFNull.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFObject.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFObjectParser.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFPage.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFPageInput.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFDictionaryIterator.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFArrayIterator.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFPageMergingHelper.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFParser.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFParserTokenizer.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFParsingOptions.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFReal.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFRectangle.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFStream.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFStreamInput.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFSymbol.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFTextString.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFUsedFont.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PDFWriter.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PFMFileReader.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PNGImageHandler.cpp">
+      <Filter>Images\PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PrimitiveObjectsWriter.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\PSBool.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\RadialGradientShadingPatternWritingTask.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\RefCountObject.cpp">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ResourcesDictionary.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\ShadingWriter.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\SimpleGlyphsDrawingContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\SimpleStringTokenizer.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\StandardEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\StateReader.cpp">
+      <Filter>State Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\StateWriter.cpp">
+      <Filter>State Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\SweepGradientShadingPatternWritingTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TIFFImageHandler.cpp">
+      <Filter>Images\TIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TiffUsageParameters.cpp">
+      <Filter>Images\TIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Timer.cpp">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TimersRegistry.cpp">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Trace.cpp">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TrailerInformation.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TrueTypeANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TrueTypeDescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TrueTypeEmbeddedFontWriter.cpp">
+      <Filter>Text\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\TrueTypePrimitiveWriter.cpp">
+      <Filter>Text\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Type1Input.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Type1ToCFFEmbeddedFontWriter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Type1ToType2Converter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\Type2CharStringWriter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\UnicodeString.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\UppercaseSequance.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\UsedFontsRepository.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\WinAnsiEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\WrittenFontCFF.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\WrittenFontTrueType.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\XCryptionCommon.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PDFWriter\XObjectContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PDFWriter\AbstractContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\AbstractWrittenFont.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\AdapterIByteReaderWithPositionToIReadPositionProvider.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Ascii7Encoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ArrayOfInputStreamsStream.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\BetweenIncluding.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\BoxingBase.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CatalogInformation.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFEmbeddedFontWriter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFFileInput.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFPrimitiveReader.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CFFPrimitiveWriter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringDefinitions.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringType1Interpreter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringType1Tracer.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Flattener.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Interpreter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CharStringType2Tracer.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CIDFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\CMYKRGBColor.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ContainerIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DecryptionHelper.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Deletable.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DictionaryContext.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DictOperand.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DocumentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\DocumentContextExtenderAdapter.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EFontStretch.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EHummusImageType.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EncryptionHelper.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EncryptionOptions.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EPDFVersion.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\EStatusCode.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ETokenSeparator.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ExtGStateRegistry.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FontDescriptorWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FreeTypeFaceWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FreeTypeOpenTypeWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FreeTypeType1Wrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FreeTypeWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\FSType.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\GlyphUnicodeMapping.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\GraphicState.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\GraphicStateStack.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IANSIFontWriterHelper.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IByteReader.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IByteReaderWithPosition.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IByteWriter.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IByteWriterWithPosition.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IContentContextListener.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IDeletable.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IDocumentContextExtender.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IFontDescriptorHelper.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IFormEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ITiledPatternEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IFreeTypeFaceExtender.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IndirectObjectsReferenceRegistry.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InfoDictionary.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputAESDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputAscii85DecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputAsciiHexDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputBufferedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputByteArrayStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputCharStringDecodeStream.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputDCTDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputFile.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputFileStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputFlateDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputLZWDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputLimitedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputOffsetStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputRC4XcodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputPFBDecodeStream.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputPredictorPNGOptimumStream.h">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputPredictorTIFFSubStream.h">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputStreamSkipperStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputStringBufferStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\InputStringStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IOBasicTypes.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IObjectEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IObjectsContextExtender.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IPageEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IPDFParserExtender.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IReadPositionProvider.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IResourceWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IType1InterpreterImplementation.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IType2InterpreterImplementation.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\IWrittenFont.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\JPEGImageHandler.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\JPEGImageInformation.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\JPEGImageParser.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\LayeredGlyphsDrawingContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\LinearGradientShadingPatternWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Log.h">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\MapIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\MD5Generator.h">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\RC4.h">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\MyStringBuf.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ObjectsBasicTypes.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ObjectsContext.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ObjectsContextExtenderAdapter.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OpenTypeFileInput.h">
+      <Filter>Text\OpenType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OpenTypePrimitiveReader.h">
+      <Filter>Text\OpenType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputAESEncodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputBufferedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputFile.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputFileStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputFlateDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputFlateEncodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputRC4XcodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputStreamTraits.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\OutputStringBufferStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PageContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PageTree.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PaintedGlyphsDrawingContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ParsedPrimitiveHelper.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFArray.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFBoolean.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFCosArray.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFCosDict.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDate.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDictionary.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDocEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDocumentCopyingContext.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDocumentHandler.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFEmbedParameterTypes.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFFormXObject.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFTiledPattern.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TiledPatternContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFHexString.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFImageXObject.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFIndirectObjectReference.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFInteger.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFLiteralString.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFMatrix.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFModifiedPage.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFName.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFNull.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFObject.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFObjectCast.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFObjectParser.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFPage.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFPageInput.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFDictionaryIterator.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFArrayIterator.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFPageMergingHelper.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFParser.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFParserTokenizer.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFParsingOptions.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFReal.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFRectangle.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFStream.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFStreamInput.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFSymbol.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFTextString.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFUsedFont.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PDFWriter.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PFMFileReader.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PNGImageHandler.h">
+      <Filter>Images\PNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PrimitiveObjectsWriter.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ProcsetResourcesConstants.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\PSBool.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\RadialGradientShadingPatternWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\RefCountObject.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\RefCountPtr.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ResourcesDictionary.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\SafeBufferMacrosDefs.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\SimpleGlyphsDrawingContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\SimpleStringTokenizer.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Singleton.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\SingleValueContainerIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\ShadingWriter.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\StandardEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\StateReader.h">
+      <Filter>State Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\StateWriter.h">
+      <Filter>State Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\SweepGradientShadingPatternWritingTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TIFFImageHandler.h">
+      <Filter>Images\TIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TiffUsageParameters.h">
+      <Filter>Images\TIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Timer.h">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TimersRegistry.h">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Trace.h">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TrailerInformation.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TrueTypeANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TrueTypeDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TrueTypeEmbeddedFontWriter.h">
+      <Filter>Text\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\TrueTypePrimitiveWriter.h">
+      <Filter>Text\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Type1Input.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Type1ToCFFEmbeddedFontWriter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Type1ToType2Converter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\Type2CharStringWriter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\UnicodeString.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\UppercaseSequance.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\UsedFontsRepository.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\WinAnsiEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\WrittenFontCFF.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\WrittenFontRepresentation.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\WrittenFontTrueType.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\XCryptionCommon.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PDFWriter\XObjectContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\PDFWriter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Document Context Level">
+      <UniqueIdentifier>{1A9DEF21-66AF-35A9-BD14-26948A7AF408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{65CD6A44-76B2-3EDD-A86B-96FEC499B131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{BB092D25-B9D5-351F-91F6-3196EE206EEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\JPG">
+      <UniqueIdentifier>{036652FD-73F8-3C28-9145-EE2664F9B541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\PNG">
+      <UniqueIdentifier>{E8DBA8D1-32FB-339A-AAE6-3616F1C386FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\TIFF">
+      <UniqueIdentifier>{4431680D-4799-359E-939C-CA104A7B4518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{891E2E20-3C0F-3FC0-B03C-1301783DD3C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Basics">
+      <UniqueIdentifier>{B77D716F-9C6C-3B64-B382-77E7D47D456D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Encoding">
+      <UniqueIdentifier>{62973B4A-CBE5-3E0E-860E-6F10CC3A7C1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Encryption">
+      <UniqueIdentifier>{03C4F74A-0136-344F-B9A2-2830FD6B54CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\IO">
+      <UniqueIdentifier>{A6EDCCAB-58CB-30B5-9D79-ABD80B9759C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Patterns">
+      <UniqueIdentifier>{098C9BCE-5F92-3337-91A5-F47E1C0E137A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Timers">
+      <UniqueIdentifier>{3E1B8596-45CA-3438-A0A5-449D2E3C4920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Trace and Log">
+      <UniqueIdentifier>{2E5FC271-1258-3D89-9BD1-28ABEC0565D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{F0F1D0EE-B0D0-3BB5-A01B-C86CC945B313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects Context Level">
+      <UniqueIdentifier>{7A42851E-EC5C-387A-9D65-34765F51AAF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding">
+      <UniqueIdentifier>{63FD35E7-AEF5-3B31-B12C-0CB70BA1713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\Parsed Objects">
+      <UniqueIdentifier>{EE72ADE3-FD5C-308C-B10B-4FB65B6E0837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\Parsed objects Helpers">
+      <UniqueIdentifier>{AAC78AA7-1E41-3563-B529-4B0DA18269E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\PredictionFilters">
+      <UniqueIdentifier>{67A647BA-B1C6-3449-A46A-151FBA25440B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FF73BB75-FBC1-391D-B2AC-F54496A8CFAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Serialization">
+      <UniqueIdentifier>{8D858E92-7F1F-37E0-9B00-860A54781C4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{6DDB0D96-A473-34AB-B11C-965A7BF22912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\CFF">
+      <UniqueIdentifier>{DA4C6CDA-64E2-3E1F-82AC-FA6EE7B0A737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\FreeType">
+      <UniqueIdentifier>{C0E107E0-DE9F-3626-ABEA-A480AB601CD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\OpenType">
+      <UniqueIdentifier>{DEA9DC22-295B-3A49-83C1-1AD6FDFD1438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\PDF Font Definitions">
+      <UniqueIdentifier>{A45A5E38-1970-3F25-BEF0-D13BB4938BD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\TrueType">
+      <UniqueIdentifier>{106EDCD5-1400-34B8-8602-0E23DD2A1335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Type1">
+      <UniqueIdentifier>{38954A5F-E739-35AD-8495-C91B6B4DF4AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XCryption">
+      <UniqueIdentifier>{710BBD22-E1DF-3682-9225-19631F3DACAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
